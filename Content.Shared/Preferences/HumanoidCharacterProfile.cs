@@ -407,7 +407,7 @@ namespace Content.Shared.Preferences
             var configManager = IoCManager.Resolve<IConfigurationManager>();
             if (configManager.GetCVar(CCVars.RestrictedNames))
             {
-                name = Regex.Replace(name, @"[^А-Яа-яёЁ0-9'.,-]", string.Empty);
+                name = Regex.Replace(name, @"[^А-Яа-яёЁ0-9' .,-]", string.Empty);
                 /*
                  * 0030-0039  Basic Latin: ASCII Digits
                  * 0041-005A  Basic Latin: Uppercase Latin Alphabet
