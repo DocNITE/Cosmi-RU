@@ -8,3 +8,5 @@ species-name-diona = Диона
 species-name-arachnid = Арахнид
 species-name-felinid = Фелинид
 species-name-moth = Ниан
+species-name-harpy = Гарпия
+species-name-vulpkanin = Вупканин
